@@ -23,7 +23,9 @@ public class JsonService {
         } else {
             conversions = new JSONArray();
         }
-        
+
+        convertedAmount = Math.round(convertedAmount * 100.0) / 100.0;
+
         JSONObject conversion = new JSONObject();
         conversion.put("date", date);
         conversion.put("amount", amount);
