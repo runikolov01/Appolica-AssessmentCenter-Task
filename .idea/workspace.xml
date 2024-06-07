@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="42713806-d6e7-44e3-8a5f-55a5ded399c9" name="Changes" comment="" />
+    <list default="true" id="42713806-d6e7-44e3-8a5f-55a5ded399c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Appolica-AssessmentCenter-Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyConvertor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyConvertor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyConvertor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyConvertor/src/main/java/org/example/Conversion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurrencyConvertor/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +24,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hVz2bzd27Uf03gZgSkoVfoGjys" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +43,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rumen/OneDrive/Документи/GitHub/Appolica-AssessmentCenter-Task",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,7 +71,12 @@
       <option name="presentableId" value="Default" />
       <updated>1717693831175</updated>
       <workItem from="1717693835268" duration="40000" />
+      <workItem from="1717775136102" duration="913000" />
+      <workItem from="1717776083363" duration="157000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
