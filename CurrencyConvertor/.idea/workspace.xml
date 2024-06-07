@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b35a469d-d6df-4e91-836c-8d3aa820f0b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/JsonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/ValidationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CurrencyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CurrencyConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +51,39 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CurrencyConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="FAST_FOREX_KEY" value="9e6668ad25-d5cf52f48a-seny7a" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.CurrencyConvertor.CurrencyConversion" />
+      <module name="CurrencyConvertor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.CurrencyConvertor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CurrencyConversion" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717776241287</updated>
-      <workItem from="1717776242393" duration="1795000" />
+      <workItem from="1717776242393" duration="6544000" />
     </task>
     <servers />
   </component>
