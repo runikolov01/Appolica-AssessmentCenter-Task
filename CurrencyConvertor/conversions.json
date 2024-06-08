@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2024-06-06",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 193.69
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "BGN",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 51.63
+  },
+  {
+    "date": "2024-06-07",
+    "base_currency": "BGN",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 51.63
+  },
+  {
+    "date": "2024-06-07",
+    "base_currency": "CHF",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 200.03
+  },
+  {
+    "date": "2023-05-04",
+    "base_currency": "USD",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 179.23
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 193.67
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 193.67
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "BGN",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 51.64
+  },
+  {
+    "date": "2024-05-06",
+    "base_currency": "BGN",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 51.64
+  },
+  {
+    "date": "2024-05-06",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 193.64
+  },
+  {
+    "date": "2024-05-06",
+    "base_currency": "TRY",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 2.86
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "USD",
+    "converted_amount": 108.02
+  },
+  {
+    "date": "2024-06-08",
+    "base_currency": "EUR",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 193.68
+  },
+  {
+    "date": "2024-06-08",
+    "base_currency": "BGN",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 51.63
+  },
+  {
+    "date": "2024-06-08",
+    "base_currency": "TRY",
+    "amount": 100,
+    "target_currency": "BGN",
+    "converted_amount": 5.54
+  },
+  {
+    "date": "2024-06-06",
+    "base_currency": "TRY",
+    "amount": 100,
+    "target_currency": "EUR",
+    "converted_amount": 2.86
+  }
+]
