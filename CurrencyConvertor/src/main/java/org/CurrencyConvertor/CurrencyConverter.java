@@ -22,6 +22,10 @@ public class CurrencyConverter {
     }
 
     public double convert(double amount, String baseCurrency, String targetCurrency) throws IOException {
+        if (isValidCurrency(baseCurrency) || isValidCurrency(targetCurrency)) {
+            System.out.println("Enter valid currencies");
+        }
+
         double rate;
 
         if (exchangeRateCache.containsKey(baseCurrency)) {
@@ -31,9 +35,13 @@ public class CurrencyConverter {
             if (rate == -1) {
                 try {
                     rate = apiService.getExchangeRate(date, baseCurrency, targetCurrency);
+                    if (rate == -1) {
+                        throw new IllegalArgumentException("Enter valid currency");
+                    }
                     cacheService.saveExchangeRate(date, baseCurrency, targetCurrency, rate);
                 } catch (URISyntaxException e) {
                     logger.log(Level.SEVERE, "Error occurred while fetching exchange rate from API", e);
+                    throw new IOException("Error fetching exchange rate from API", e);
                 }
             }
             exchangeRateCache.put(baseCurrency, rate);
@@ -42,5 +50,15 @@ public class CurrencyConverter {
         double convertedAmount = amount * rate;
         JsonService.saveConversion(date, amount, baseCurrency, targetCurrency, convertedAmount);
         return convertedAmount;
+    }
+
+    private boolean isValidCurrency(String currency) throws IOException {
+        try {
+            Map<String, Double> exchangeRates = apiService.getExchangeRates(date);
+            return !exchangeRates.containsKey(currency);
+        } catch (URISyntaxException e) {
+            logger.log(Level.SEVERE, "Error occurred while fetching exchange rates from API", e);
+            throw new IOException("Error fetching exchange rates from API", e);
+        }
     }
 }
