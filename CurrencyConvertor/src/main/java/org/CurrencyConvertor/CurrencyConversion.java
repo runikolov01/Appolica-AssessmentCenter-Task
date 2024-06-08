@@ -6,10 +6,12 @@ import java.util.Scanner;
 public class CurrencyConversion {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        if (args.length != 1) {
+            System.out.println("Please provide the date in format 'YYYY-MM-DD' as a command-line argument.");
+            return;
+        }
 
-        System.out.print("Enter the date in format 'YYYY-MM-DD': ");
-        String dateInput = scanner.nextLine();
+        String dateInput = args[0];
 
         if (!ValidationService.isValidDate(dateInput)) {
             System.out.println("Please provide a valid date in format 'YYYY-MM-DD'");
@@ -18,7 +20,10 @@ public class CurrencyConversion {
 
         CurrencyConverter converter = new CurrencyConverter(dateInput);
 
+        Scanner scanner = new Scanner(System.in);
+
         while (true) {
+            System.out.print("Enter the amount to convert (or type 'END' to exit): ");
             String amountInput = scanner.nextLine();
             if (amountInput.equalsIgnoreCase("END")) break;
 
@@ -29,14 +34,16 @@ public class CurrencyConversion {
 
             double amount = Double.parseDouble(amountInput);
 
+            System.out.print("Enter the base currency code: ");
             String baseCurrency = scanner.nextLine();
-            if (ValidationService.isValidCurrency(baseCurrency)) {
+            if (!ValidationService.isValidCurrency(baseCurrency)) {
                 System.out.println("Please enter a valid currency code");
                 continue;
             }
 
+            System.out.print("Enter the target currency code: ");
             String targetCurrency = scanner.nextLine();
-            if (ValidationService.isValidCurrency(targetCurrency)) {
+            if (!ValidationService.isValidCurrency(targetCurrency)) {
                 System.out.println("Please enter a valid currency code");
                 continue;
             }
@@ -48,5 +55,6 @@ public class CurrencyConversion {
                 System.out.println("Error occurred while converting currencies.");
             }
         }
+        scanner.close();
     }
 }
