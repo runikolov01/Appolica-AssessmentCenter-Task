@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b35a469d-d6df-4e91-836c-8d3aa820f0b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CurrencyConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/CurrencyConvertor/CurrencyConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,7 @@
     "extract.method.default.visibility": "private",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rumen/OneDrive/Документи/SoftUni-Java/JavaWeb_SoftUni",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,7 +102,8 @@
       <option name="presentableId" value="Default" />
       <updated>1717776241287</updated>
       <workItem from="1717776242393" duration="8507000" />
-      <workItem from="1717827051655" duration="5908000" />
+      <workItem from="1717827051655" duration="7500000" />
+      <workItem from="1718113445336" duration="495000" />
     </task>
     <servers />
   </component>
